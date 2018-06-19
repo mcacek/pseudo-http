@@ -1,5 +1,5 @@
 module.exports = {
-	label: 'Template Profile',
+	label: 'Example Profile',
 	services: [
 		require('./api')
 	]
