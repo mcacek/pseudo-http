@@ -1,0 +1,42 @@
+{
+  "name": "pesudo-http",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo",
+    "start": "node index.js"
+  },
+  "preferGlobal": true,
+  "directories": {
+    "bin": "./bin"
+  },
+  "author": {
+    "name": "SmartThings",
+    "url": "http://www.smartthings.com"
+  },
+  "contributors": [
+    {
+      "name": "Michael Cacek",
+      "url": "http://github.com/mcacek"
+    }
+  ],
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/SmartThingsOSS/pseudo-http/issues"
+  },
+  "homepage": "https://github.com/SmartThingsOSS/pseudo-http",
+  "dependencies": {
+    "cors": "2.8.4",
+    "debug": "3.1.0",
+    "dotenv": "6.0.0",
+    "express": "4.16.3",
+    "express-http-proxy": "1.2.0",
+    "inquirer": "6.0.0",
+    "meow": "5.0.0",
+    "rc": "1.2.8"
+  },
+  "devDependencies": {
+    "xo": "0.21.1"
+  }
+}
