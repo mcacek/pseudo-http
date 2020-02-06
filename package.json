@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "xo",
+    "lint": "npx prettier lib/*.js server.js -c",
+    "lint:f": "npx prettier lib/*.js server.js --write",
     "start": "node index.js"
   },
   "preferGlobal": true,
@@ -27,16 +28,16 @@
   },
   "homepage": "https://github.com/SmartThingsOSS/pseudo-http",
   "dependencies": {
-    "cors": "2.8.4",
-    "debug": "3.1.0",
-    "dotenv": "6.0.0",
-    "express": "4.16.3",
-    "express-http-proxy": "1.2.0",
-    "inquirer": "6.0.0",
-    "meow": "5.0.0",
+    "cors": "2.8.5",
+    "debug": "4.1.1",
+    "dotenv": "8.2.0",
+    "express": "4.17.1",
+    "express-http-proxy": "1.6.0",
+    "inquirer": "7.0.4",
+    "meow": "6.0.0",
     "rc": "1.2.8"
   },
   "devDependencies": {
-    "xo": "0.21.1"
+    "prettier": "1.19.1"
   }
 }
